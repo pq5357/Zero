@@ -9,6 +9,8 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.TextView;
 
+import java.util.List;
+
 import sg.com.zero.R;
 import sg.com.zero.databinding.ItemMainIndexBinding;
 
@@ -22,6 +24,7 @@ public class IndexRecycleViewAdapter extends RecyclerView.Adapter<IndexRecycleVi
     private Context context;
 
     private LayoutInflater mLayoutInflater;
+
 
     public IndexRecycleViewAdapter(Context context) {
         this.context = context;
