@@ -14,7 +14,9 @@
                 <category android:name="android.intent.category.LAUNCHER"/>
             </intent-filter>
         </activity>
-        <activity android:name=".common.TestActivity"/>
+        <activity
+            android:screenOrientation="landscape"
+            android:name=".common.TestActivity"/>
 
     </application>
 

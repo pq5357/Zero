@@ -89,7 +89,7 @@ public class TestActivity extends AppCompatActivity {
                 @Override
                 public void run() {
                     int times = 0;
-                    while (365 * 10 >= ++times) {
+                    while (1000000 >= ++times) {
                         alloc();
                         if (times % 5 == 0)
                             drawPeople(people);

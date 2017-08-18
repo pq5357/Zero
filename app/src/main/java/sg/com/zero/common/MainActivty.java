@@ -30,13 +30,10 @@ public class MainActivty extends BaseActivity {
 
         activityMainBinding.rcvIndex.setAdapter(new IndexRecycleViewAdapter(context));
 
-        activityMainBinding.rcvIndex.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                Intent intent = new Intent(MainActivty.this, TestActivity.class);
-                startActivity(intent);
-            }
-        });
+        Intent intent = new Intent(MainActivty.this, TestActivity.class);
+        
+        startActivity(intent);
+
 
     }
 
